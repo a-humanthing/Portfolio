@@ -22,7 +22,12 @@ import {
   carrent,
   jobit,
   tripguide,
+  leen,
+  airwork,
   threejs,
+  surf,
+  hash,
+  broto,
 } from "../assets"
 
 export const navLinks = [
@@ -45,17 +50,18 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
+
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Digital Marketing",
     icon: creator,
+  },
+  {
+    title: "SEO Analyst",
+    icon: mobile,
   },
 ]
 
@@ -116,55 +122,29 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    title: "MERN Stack Developer",
+    company_name: "Hash It Solutions",
+    icon: hash,
+    iconBg: "#fff",
     date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "MERN Stack Intern",
+    company_name: "Brototype",
+    icon: broto,
+    iconBg: "#fff",
+    date: "Jul 2022 - Jan 2023",
+    points: [
+      "By Self Learning Method Started Learning Mongodb, Node and React.",
+      "Improved English Communication By Adding Speaking into Daily Routine",
+      "Data Structures And Algorithms",
+      "Learned How to Deploy a Full Projects from Scratch. ",
     ],
   },
 ]
@@ -198,16 +178,17 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Leen Coffee",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Implemented Pixel Perfect UI for Leen coffee shop.Collaborated The Developement With UI/UX and Delivered Site With As Per Clients Wish",
+
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "netlify",
         color: "green-text-gradient",
       },
       {
@@ -215,50 +196,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: leen,
+    source_code_link: "https://leencoffee.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "Airwork",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that Designed for client Employee and Service Management.Made Easy by using Global States and Reusable Components.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "redux toolkit",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mui",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: airwork,
+    source_code_link: "https://github.com/Hash-It-Solutions/Airwork_frontend/",
   },
   {
-    name: "Trip Guide",
+    name: "Surf",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed A Social Media Application with features like Chat,Post,Follower,Following etc.And Implementing a Local Service Search Engine In It.",
     tags: [
       {
-        name: "nextjs",
+        name: "express",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "node.js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: surf,
+    source_code_link: "https://surf-7vpx.onrender.com",
   },
 ]
 

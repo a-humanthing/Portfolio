@@ -1,0 +1,11 @@
+Model Information:
+* title:	Dawn of Creation Point Cloud
+* source:	https://sketchfab.com/3d-models/dawn-of-creation-point-cloud-a9989c936e764e9d9bf0866571fdd026
+* author:	stevencmutter (https://sketchfab.com/stevencmutter)
+
+Model License:
+* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Dawn of Creation Point Cloud" (https://sketchfab.com/3d-models/dawn-of-creation-point-cloud-a9989c936e764e9d9bf0866571fdd026) by stevencmutter (https://sketchfab.com/stevencmutter) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
